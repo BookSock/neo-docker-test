@@ -1,1 +1,2 @@
 FROM neo4j
+EXPOSE 7474
