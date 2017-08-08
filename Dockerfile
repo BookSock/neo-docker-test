@@ -5,4 +5,5 @@ RUN npm install
 
 # Add your source files
 COPY . .
+EXPOSE 3000
 CMD ["npm","start"]
