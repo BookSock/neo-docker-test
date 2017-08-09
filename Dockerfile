@@ -1,2 +1,5 @@
 FROM neo4j
+VOLUME /data
+VOLUME /logs
+COPY . . 
 EXPOSE 7474
